@@ -1,0 +1,5 @@
+setwd("~/Dropbox/R/Pizza")
+##library(rjson)
+library(jsonlite)
+test <- fromJSON("test.json")
+train <- fromJson("train.json")
